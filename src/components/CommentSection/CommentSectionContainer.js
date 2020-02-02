@@ -6,9 +6,9 @@ import "./Comment.css";
 
 const CommentSection = props => {
   // Add state for the comments
-  // const [comments, setComments] = useState(0);
+  const [comments, setComments] = useState(0);
 
-//   return (
+   return ( <p></p>
 //     // <div className = "comments">
 //       // <div className = "button_container">
 //         // <button onClick = () => setComments
@@ -16,7 +16,7 @@ const CommentSection = props => {
 //       // {/* map through the comments data and return the Comment component */}
 //       // <CommentInput />
 //     </div>
-//   );
+   );
 };
 
 export default CommentSection;

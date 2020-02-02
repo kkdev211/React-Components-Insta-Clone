@@ -10,7 +10,7 @@ const PostsPage = props => {
     <div className="posts-container-wrapper">
       {props.postsData.map((post, index) => {
          
-         return <Post postData={post}/>
+        return <Post post={post}/>
           
         })}
 
