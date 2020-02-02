@@ -6,13 +6,17 @@ import "./Comment.css";
 
 const CommentSection = props => {
   // Add state for the comments
+  // const [comments, setComments] = useState(0);
 
-  return (
-    <div>
-      {/* map through the comments data and return the Comment component */}
-      <CommentInput />
-    </div>
-  );
+//   return (
+//     // <div className = "comments">
+//       // <div className = "button_container">
+//         // <button onClick = () => setComments
+//       // </div>
+//       // {/* map through the comments data and return the Comment component */}
+//       // <CommentInput />
+//     </div>
+//   );
 };
 
 export default CommentSection;
