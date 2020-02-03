@@ -8,14 +8,18 @@ const CommentSection = props => {
   // Add state for the comments
   const [comments, setComments] = useState(0);
 
-   return ( <p></p>
-//     // <div className = "comments">
-//       // <div className = "button_container">
-//         // <button onClick = () => setComments
-//       // </div>
-//       // {/* map through the comments data and return the Comment component */}
-//       // <CommentInput />
-//     </div>
+   return (     
+     // {/* map through the comments data and return the Comment component */}
+    <div className = "comment">
+      {props.comments.map((comment, index) => {
+         <div className = "user">
+           {comment.username} 
+
+         </div>     
+      
+      })}
+      <CommentInput/>
+    </div>
    );
 };
 
