@@ -18,6 +18,7 @@ const App = () => {
   const [posts, setPosts] =useState(initialState)
   return (
     <div className="App">
+      <SearchBar />
       <PostsPage postsData={posts} setPostsDataFn={setPosts}/>
     </div>
   );
