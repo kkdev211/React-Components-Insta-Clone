@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState } from 'react';
 
 const LikeSection = props => {
+  
+  const [likes, setLikes] =useState();
   return (
     <div>
     <div
@@ -19,5 +21,9 @@ const LikeSection = props => {
 </div>
   )
 };
+function LikeButton(props) {
+  const {likes} = props;
+  return 
+}
 
 export default LikeSection;
