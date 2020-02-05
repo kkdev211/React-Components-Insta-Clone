@@ -25,10 +25,21 @@
 }
 .image-wrapper {
   display: flex;
-  
   border-right: 2px black;
   height: 50px;
   padding-top: 1em;
+   
+}
+.fa-instagram {
+  height: 200%;
+}
+
+.instagram-text {
+  font-family:script;
+  font-weight: 600;
+  font-size: 2em;
+  padding-left: .5em;
+  /* border-left: 1px solid black; */
   
 }
 

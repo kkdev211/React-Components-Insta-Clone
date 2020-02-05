@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 
+
 const LikeSection = props => {
   
-  const [likes, setLikes] =useState(0);
-  const handleLike = () => {
-    // props.setLikes(props.likes + 1);
-    // alert(`${props.likes + 1}`)
-  };
   
   return (
     <div>
@@ -14,8 +10,8 @@ const LikeSection = props => {
       className="like-section"
       key="likes-icons-container"
     >
-      <div className="like-section-wrapper">
-        <i className="far fa-heart" onClick={handleLike}/>
+      <div className="like-section-wrapper" onClick= {props.handleLike}>
+        <i className="far fa-heart" />
       </div>
       <div className="like-section-wrapper">
         <i className="far fa-comment" />
@@ -30,10 +26,6 @@ const LikeSection = props => {
 //   const {likes} = props;
 //   return 
 // }
-// var heartBtn = document.querySelector(".fa-heart")
-// heartBtn.addEventListener('click', () => {
-//   alert("yay");
-    
-// })
+
 
 export default LikeSection;
